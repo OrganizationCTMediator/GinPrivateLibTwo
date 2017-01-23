@@ -62,9 +62,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EB55131EE8DF33E9A5FC712 /* Pods-GinPrivateLibTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GinPrivateLibTwo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GinPrivateLibTwo_Tests/Pods-GinPrivateLibTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96CED1C347C83A6F08E990C2 /* Pods-GinPrivateLibTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GinPrivateLibTwo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GinPrivateLibTwo_Example/Pods-GinPrivateLibTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AEE3A0B841CA66C38AF6D810 /* GinPrivateLibTwo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GinPrivateLibTwo.podspec; path = ../GinPrivateLibTwo.podspec; sourceTree = "<group>"; };
-		C92847641AFB5EFCFA7F832D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D45715E269F164F6A15937B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AEE3A0B841CA66C38AF6D810 /* GinPrivateLibTwo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GinPrivateLibTwo.podspec; path = ../GinPrivateLibTwo.podspec; sourceTree = "<group>"; };
+		C92847641AFB5EFCFA7F832D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D45715E269F164F6A15937B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE0D6FE992D1DAD12DCBE52B /* Pods_GinPrivateLibTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GinPrivateLibTwo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0CF259EA72FE7A739C496 /* Pods_GinPrivateLibTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GinPrivateLibTwo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

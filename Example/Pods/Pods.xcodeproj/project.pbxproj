@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139B22141CDBA56C940B1CC02D370136 /* modes.h in Headers */ = {isa = PBXBuildFile; fileRef = 17976E8A0AE43DE59551D46B32C5913D /* modes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14892DC16F04E4FBE3DE0CF8D070AD3D /* e_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = B34820393A0860C29D1F8578694453B4 /* e_os2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15E8EBE8CE415ADA1F5DD0E7AA18574F /* Pods-GinPrivateLibTwo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA8B3CA0AD51E2A767B864BA76296F3 /* Pods-GinPrivateLibTwo_Example-dummy.m */; };
+		177F6DE3F5A224CB07B802E808A703EC /* ebcdic.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A4EF0F7A7574A22C8B03E7ACF601B8 /* ebcdic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AD675E495A029B94F3602A1AAAED010 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F73082EDD4EF1471A53D50A541091A /* ecdsa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B2A6B1477DAF77772DD46BF5C425FD0 /* des_old.h in Headers */ = {isa = PBXBuildFile; fileRef = F28D65E749644BF26C2FF97C5B80D6F3 /* des_old.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C978C9452778BCC9126ADC30631EEAE /* RSA_Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE8C7EE27438DC4C6A567ADA6651782 /* RSA_Util.m */; };
+		1F92E499F25B7F112506D6BE09CE0027 /* ssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0442848025FE594043F1F498AFEF5F81 /* ssl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FC770E505CDF5F4624F236336BD7519 /* bio.h in Headers */ = {isa = PBXBuildFile; fileRef = 4632DCE6B605E8EABDE8977FDF27A6D1 /* bio.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2010960EE5359CDEBAD4D1A4C948543B /* EncryptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE47F7D469E822130470693A00D3D07 /* EncryptUtil.m */; };
+		276D770B347D2B457617BCF1F078CA59 /* rand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7689CB8B776A73D1819952BC15AB7120 /* rand.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28E84602490DFE72A4D99A759F3694D4 /* lhash.h in Headers */ = {isa = PBXBuildFile; fileRef = 36585E5A80B7166598BABC38AE58FD99 /* lhash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29121DE33E849F9D732DF2BCB7B39366 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA56F792CB3453B29CAA22B9C3A7299 /* buffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29C7A17BA821DF238DE642A111F51A3D /* opensslv.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AB1C2A6F62C4790FF0BAE6ED11D71A /* opensslv.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A175A679B376FC0B8039C2D5798A30D /* GinPrivateLibTwo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BC594E79B01ACD13DD29DB2F1BAE8D /* GinPrivateLibTwo-dummy.m */; };
+		2A17C8A8D4D292E287513CE6C1AF9D94 /* dh.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5BD4016011E342AF31B7532FF8DAB3 /* dh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A1E778E0BBD1A267E0CEC52ED00CAC4 /* GinPrivateLibTwo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E59A7788BAB15AC4D6C297AD142557 /* GinPrivateLibTwo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2EF2012E5ECD32B05745F1C8C84852 /* safestack.h in Headers */ = {isa = PBXBuildFile; fileRef = EE69D65662FCE889AEB733A793374D78 /* safestack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C683F21F35E870A1747AE2AFAE76425 /* whrlpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EED329B529808D14335AE04B87AE506 /* whrlpool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C7CE7CA172D886981736BFE145A651C /* dsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE558D6911164766A27F9DDFA54B32D /* dsa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D816A8B27D6C62C2C97154B96B5123A /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FD96E50BC449B6BA4BA4AC0BC1096A /* md5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31E74C6B5ED64CFA5BDCEBC0465B5DA8 /* engine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF49B44FD72AE51AE837BAF816BAE9D /* engine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41E4E478FDB5B628020EE7012D022BA8 /* ec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2684428D2DEDA3711E9B99D5093AA7EC /* ec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43491E0ACA80A937585C86404E9C2EF6 /* rsa.h in Headers */ = {isa = PBXBuildFile; fileRef = B70B9848ED6DBB7D6E14532674240B56 /* rsa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		45EA6240C7A3EC1E194AD56A11274947 /* Pods-GinPrivateLibTwo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A951DCC59517FA6130885D1DCB3D8BCF /* Pods-GinPrivateLibTwo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B90BE89F8457D725CC3FB7D51B1124 /* rc4.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1651E56359C3962785BC92E366CC1B /* rc4.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CDDBE36B906A38415EC2F0B034850A1 /* obj_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF4010DD50C0882A18D23B2D6D75CBA /* obj_mac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D10AA94D1BC946EF39DFB45955CD712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		52344A9C1A31333EB49A61DD486299B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
+		54EE834E2FE59CB93E773A42CD8A5694 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = EA66095C0F3961D11C6F4C99BD69D79C /* pem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C3E7918DCE0E3AB80EDC7C4CC458078 /* ui_compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7821B9B3C696C29C8592F773A75EE5B7 /* ui_compat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C78E984485BCDC758F1630580EA76D9 /* symhacks.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFF46CCFEA6749F66D8F1C85DC74309 /* symhacks.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		612D090FEE5464BCAB85DBBA6545F56E /* md4.h in Headers */ = {isa = PBXBuildFile; fileRef = DB34A9041EF71D77212FD6A0E64F4788 /* md4.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		615827021A91D430A77B0F6B0B5FD25F /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E47DF2F10C02582574F61F2971F5DF /* sha.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		692A96382A8EB8D4842B7D029409ABE6 /* opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = C755B3C2FDC748890B62F48BF4FEAA29 /* opensslconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D84070498FE71FD7F154DEFF8367088 /* pem2.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F589749657490C2DDC25530149FAD8 /* pem2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F19CB2F5E17EC6428C887D8A9940127 /* asn1_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 71770AE645D37693F1A38387B3823034 /* asn1_mac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7041AAE22B29CB4FABF2AA36A9E08E4D /* asn1t.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE8278C3DDED53970758459B9541B71 /* asn1t.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76E7D1B71F4CB282EF2C3ABD28DA14D2 /* pkcs7.h in Headers */ = {isa = PBXBuildFile; fileRef = 909011B2C842E460883FC3FF5DECA5D4 /* pkcs7.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		778B313E5A8677D6C850B7CA6BEA17D4 /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1A2CA85907811F8272675ADDD7A98E /* idea.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		79B9E86D66B82356C9B4EA7D982AE77A /* ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = A71842427D2D1A40B77F7E24C57E22F4 /* ecdh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A2737A060AEB005FE38E9AE5393E95A /* RSA_Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C6A0BFF937140C53CC5D9F3D38DE9A /* RSA_Util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80854DF6AD641B419DC910A3A53580A7 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 476FCB34B4EAC591D25A5351CC271FA4 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8148E7F97484E7B25B1E88B65D2A6031 /* pkcs12.h in Headers */ = {isa = PBXBuildFile; fileRef = A646EF6CC2E6FA763620FE184FFFA9C1 /* pkcs12.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		831868705E994C02B1F5A98BDA351F0C /* Pods-GinPrivateLibTwo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6291096AD4077D5BBA11F5C49BC7844 /* Pods-GinPrivateLibTwo_Tests-dummy.m */; };
+		84A7363ED796D381871ED4B985B79256 /* x509.h in Headers */ = {isa = PBXBuildFile; fileRef = 351DBF70A817176DCE2E62B4ED4EAF3F /* x509.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8527D59D8E077B2388933810905620ED /* cmac.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E75B75F476D3E31D2E6DC871B4F275 /* cmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		871E63629EB821BC3332312C07835BCC /* des.h in Headers */ = {isa = PBXBuildFile; fileRef = B9479B401D1831B64DED3B984D5DC0E1 /* des.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EADBD292D7F0E4B014A305ACF5F7DA5 /* x509_vfy.h in Headers */ = {isa = PBXBuildFile; fileRef = B5662917B45D76E5DF4F620C5AD69301 /* x509_vfy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		912199889D19B8CB06E41E12558877D2 /* ssl23.h in Headers */ = {isa = PBXBuildFile; fileRef = 486D6499E22F308DE014C02A6B4FAE87 /* ssl23.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		97D04C04F44C2DA3EE7B2832388471A5 /* ssl3.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE0FFCC8AEBD26FB7D1CCAE6D72659E /* ssl3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A92971CB3E270E861EA73A47DE1897A /* Sec.c in Sources */ = {isa = PBXBuildFile; fileRef = 70090EC5115722327891122A14DA9859 /* Sec.c */; };
+		9A9C0F07D0A2B608947C2DFBAFC963B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		9B9EE7710B47D5AC6A0AB252E61F5375 /* camellia.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EA581BAC8B384525066B76B728FC4D /* camellia.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BCF338AF854015BD6B6B63F077884F1 /* ossl_typ.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E52852CF0D71EF797BCC8DE22837E41 /* ossl_typ.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9CA377A1CAB2D4C6B1BEFC1A32D74FB3 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 785C312106DB06AF2B880CD00164B9C9 /* blowfish.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D55478609F15A0AAF5E981A75361282 /* evp.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AA4FA53C9F63573111ADD94515AA35 /* evp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9E44D0CD451BAE90DE2FC9A1050EA687 /* mdc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D4A466933FE148CE6172BEE650668C /* mdc2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4A266676F6E670ADF4D9B66EE3E036E /* srp.h in Headers */ = {isa = PBXBuildFile; fileRef = FC29A07576EC677F292CB73F9341C485 /* srp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A597FAF1B7CE59DFEA0343AFF858223E /* dtls1.h in Headers */ = {isa = PBXBuildFile; fileRef = F3351EB55FD342457484668B7DB80D37 /* dtls1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC6835F098FDB3945C705890D265B010 /* comp.h in Headers */ = {isa = PBXBuildFile; fileRef = AD62F3364BCF675B21CCDA76CA4801FC /* comp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AEAE9B83B001F61522A3B02959EABE33 /* conf_api.h in Headers */ = {isa = PBXBuildFile; fileRef = A0FD9EBC8971E46BC1B064EB513F948D /* conf_api.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF4989862DC4167E076C229B341475FD /* txt_db.h in Headers */ = {isa = PBXBuildFile; fileRef = E020A97151656E2A60957F497FF433B4 /* txt_db.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF53CE543A3A1B8936A181105C339CBA /* x509v3.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC292AA49F3F7C1A12DA98C8FEAB9F0 /* x509v3.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1236DA0C9F85422D8E9E0A66AB501E2 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BA0423A007ED2E38DE9AEF2FF16F9EE /* stack.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3E1569B19F408DA44A4022DC2ACE6E7 /* rc2.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C7785476FF0D653ED03510C121F588F /* rc2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B94BAF6577BCD86D0393646A07213E7A /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE95C1D1521139A38C3057A19C63E05 /* asn1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA0ADB1AC286C32EEE0FA0C07EB30CE4 /* cast.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A3E0F283A455BD7F1F83D8C030C509 /* cast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF13BB6AE7F19D993B57B5B99199983C /* err.h in Headers */ = {isa = PBXBuildFile; fileRef = 890913C8A6B8F2AED56A9B1A2EEE6E6B /* err.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2CA1599859D593BFF7B73E935262B48 /* pqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1429088A3D4A554C14CD79C2DE1A297D /* pqueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3441558DAE40418E07B73D686F3D36A /* tls1.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD6832148B6093F71355B9767906250 /* tls1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C41A5512D46D46DD75BBF36E6AF80A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		CA38ED7072196B44064DE69638153783 /* kssl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8351C6C00176D3184CD6283166D45CD9 /* kssl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF97D03936266D6535814E23CD79E335 /* bn.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5E72E46FE06B6235331BCEEFD6BA02 /* bn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D039FCE9702511434C030ECEE761A485 /* ripemd.h in Headers */ = {isa = PBXBuildFile; fileRef = D83B80E701130BBBC979F09C47804B55 /* ripemd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0B09D53CCEBB2FA74051101665785DC /* crypto.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B69573C095C0F71DFE1C230CBB58FF /* crypto.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0BA5963F32E70AAE0D51C4D287DFFBA /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAB63F1C9E2DD6E3280BF0F3FAD6DBA /* objects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2F2A35C0E1E2AAFF7F9343CF839C898 /* dso.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD99C35DDC1944F08B161FB2467CB90 /* dso.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E134361E5002CEF0FDAB4F22B8087ED0 /* ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD60D277F102F10A37821A9CA218DC5 /* ui.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7C8E8F2EB560E04C99EA2D9121EE8B2 /* conf.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8E90785C284473FEAD0E31E8E52080 /* conf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAF082B6A4AEE3C5055467733ADDD75B /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 34CF1D2E1F0665E41DBABAF5EE4DACEF /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED1A83535D31BC0DEF0F027BA86B9C11 /* EncryptUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F0DA7A87742ABCC8F90825079046D5 /* EncryptUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2E040E7D3A4BF89B166955D28582E4 /* srtp.h in Headers */ = {isa = PBXBuildFile; fileRef = E9FC9E99A8AC603D42ACA8C47C6F85C5 /* srtp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDA17A1171DD6021D8D89B0388EAA632 /* ts.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6A79722FBDE980314D398EB38CDC26 /* ts.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EE187FF6AA15B8A39D08F355A9F9B010 /* ocsp.h in Headers */ = {isa = PBXBuildFile; fileRef = 219311A37DA8422C1A65E82C1197441D /* ocsp.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1EA780E65007B20B87F797FFFEEAD2F /* Pods-GinPrivateLibTwo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F126C7F91A8A326EBFC277A744E069 /* Pods-GinPrivateLibTwo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53830E763BCBF89F2659236175C071C /* krb5_asn.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0BB5A91B114E47C24E2C703DDFC708 /* krb5_asn.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5D23464D36FB4E36BFCED05C2E6232F /* seed.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E4E2CDAB7E8E53EA9DF7A92781EEBC /* seed.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAD3BF789429087C856845B638FF981B /* ssl2.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD27669D954BF7274E762B27E6A0C9F /* ssl2.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB8A1241799104A9DC9C1A1867B83874 /* cms.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0E298A4E17A091B3A378987265D7A /* cms.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		985A6F1A325BF20010DD86FCFE7FC81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23E6DFD369482FA3E459463F0C80FD2F;
+			remoteInfo = GinPrivateLibTwo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0442848025FE594043F1F498AFEF5F81 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		05740BD99B3302BBB04B5CB06D04CC3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D0A191DE88D2DCF59FA484D93FAA9A /* Pods-GinPrivateLibTwo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GinPrivateLibTwo_Tests-resources.sh"; sourceTree = "<group>"; };
+		0AA56F792CB3453B29CAA22B9C3A7299 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		0C7785476FF0D653ED03510C121F588F /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		10B1F9697F952E64690D38F518FECD12 /* Pods-GinPrivateLibTwo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GinPrivateLibTwo_Example.modulemap"; sourceTree = "<group>"; };
+		1429088A3D4A554C14CD79C2DE1A297D /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		16C6A0BFF937140C53CC5D9F3D38DE9A /* RSA_Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSA_Util.h; sourceTree = "<group>"; };
+		17976E8A0AE43DE59551D46B32C5913D /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		1AA8B3CA0AD51E2A767B864BA76296F3 /* Pods-GinPrivateLibTwo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GinPrivateLibTwo_Example-dummy.m"; sourceTree = "<group>"; };
+		1F6A79722FBDE980314D398EB38CDC26 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		219311A37DA8422C1A65E82C1197441D /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		2684428D2DEDA3711E9B99D5093AA7EC /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		29AA4FA53C9F63573111ADD94515AA35 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		29D4A466933FE148CE6172BEE650668C /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		2BE95C1D1521139A38C3057A19C63E05 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		2E52852CF0D71EF797BCC8DE22837E41 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		2F392A69CCE0060AEB059EA2140E5024 /* Pods-GinPrivateLibTwo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GinPrivateLibTwo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F56D28CD841A36D436FB3F312143ACD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FE558D6911164766A27F9DDFA54B32D /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		2FE8278C3DDED53970758459B9541B71 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		34CF1D2E1F0665E41DBABAF5EE4DACEF /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		351DBF70A817176DCE2E62B4ED4EAF3F /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		36585E5A80B7166598BABC38AE58FD99 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		36F589749657490C2DDC25530149FAD8 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		3A5BD4016011E342AF31B7532FF8DAB3 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		3AF49B44FD72AE51AE837BAF816BAE9D /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		3BA0423A007ED2E38DE9AEF2FF16F9EE /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		3BE47F7D469E822130470693A00D3D07 /* EncryptUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EncryptUtil.m; sourceTree = "<group>"; };
+		41E7838553810A1520E797ACAA326258 /* Pods-GinPrivateLibTwo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GinPrivateLibTwo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4632DCE6B605E8EABDE8977FDF27A6D1 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		476FCB34B4EAC591D25A5351CC271FA4 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		486D6499E22F308DE014C02A6B4FAE87 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		4BD60D277F102F10A37821A9CA218DC5 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		4CD6832148B6093F71355B9767906250 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		51AC755AE7F7201C029D3FC3D7CEA041 /* Pods-GinPrivateLibTwo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GinPrivateLibTwo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51D8C4FE8AFC34769C46550754C13049 /* GinPrivateLibTwo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GinPrivateLibTwo.xcconfig; sourceTree = "<group>"; };
+		57330690B5668C79A89EC5CDA34FD8D9 /* Pods_GinPrivateLibTwo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GinPrivateLibTwo_Tests.framework; path = "Pods-GinPrivateLibTwo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		598AB9DAA581EEAA8178E10CD4389C66 /* Pods_GinPrivateLibTwo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GinPrivateLibTwo_Example.framework; path = "Pods-GinPrivateLibTwo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0BB5A91B114E47C24E2C703DDFC708 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		617747CC852EFA3EE4B4C301014C9712 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = GinPrivateLibTwo/Classes/openssl/lib/libcrypto.a; sourceTree = "<group>"; };
+		63B0E298A4E17A091B3A378987265D7A /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		64F73082EDD4EF1471A53D50A541091A /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		6AAB63F1C9E2DD6E3280BF0F3FAD6DBA /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		6CE8C7EE27438DC4C6A567ADA6651782 /* RSA_Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSA_Util.m; sourceTree = "<group>"; };
+		70090EC5115722327891122A14DA9859 /* Sec.c */ = {isa = PBXFileReference; includeInIndex = 1; path = Sec.c; sourceTree = "<group>"; };
+		71770AE645D37693F1A38387B3823034 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		7689CB8B776A73D1819952BC15AB7120 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		7821B9B3C696C29C8592F773A75EE5B7 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		785C312106DB06AF2B880CD00164B9C9 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		81A4EF0F7A7574A22C8B03E7ACF601B8 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		8351C6C00176D3184CD6283166D45CD9 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		890913C8A6B8F2AED56A9B1A2EEE6E6B /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		8EED329B529808D14335AE04B87AE506 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		909011B2C842E460883FC3FF5DECA5D4 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		92DC881DA788D4073564409C9D02E24B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935B0324D8ED2FA6C884DD378E2B0505 /* GinPrivateLibTwo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GinPrivateLibTwo-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97189FCCF05D21BCE07FE675B612197F /* Pods-GinPrivateLibTwo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GinPrivateLibTwo_Example-resources.sh"; sourceTree = "<group>"; };
+		98E4E2CDAB7E8E53EA9DF7A92781EEBC /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		9EE6109BAAD338162C49203F8E70DFC5 /* Pods-GinPrivateLibTwo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GinPrivateLibTwo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A0FD9EBC8971E46BC1B064EB513F948D /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		A646EF6CC2E6FA763620FE184FFFA9C1 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		A71842427D2D1A40B77F7E24C57E22F4 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		A951DCC59517FA6130885D1DCB3D8BCF /* Pods-GinPrivateLibTwo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GinPrivateLibTwo_Example-umbrella.h"; sourceTree = "<group>"; };
+		ACD27669D954BF7274E762B27E6A0C9F /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		ACE0FFCC8AEBD26FB7D1CCAE6D72659E /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		AD62F3364BCF675B21CCDA76CA4801FC /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		B0CCBFD4C71F4AC1E9631E0D832610CD /* Pods-GinPrivateLibTwo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GinPrivateLibTwo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B34820393A0860C29D1F8578694453B4 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5662917B45D76E5DF4F620C5AD69301 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		B70B9848ED6DBB7D6E14532674240B56 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		B7EA581BAC8B384525066B76B728FC4D /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		B9479B401D1831B64DED3B984D5DC0E1 /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		BB8E90785C284473FEAD0E31E8E52080 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		BC1A2CA85907811F8272675ADDD7A98E /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		C0F0DA7A87742ABCC8F90825079046D5 /* EncryptUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EncryptUtil.h; sourceTree = "<group>"; };
+		C2AB1C2A6F62C4790FF0BAE6ED11D71A /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		C3F4F5C9087B29DC9F67CB37A3FC8DF2 /* Pods-GinPrivateLibTwo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GinPrivateLibTwo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C4BC594E79B01ACD13DD29DB2F1BAE8D /* GinPrivateLibTwo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GinPrivateLibTwo-dummy.m"; sourceTree = "<group>"; };
+		C613E560D1CD9FD1011D2D0720777505 /* Pods-GinPrivateLibTwo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GinPrivateLibTwo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C755B3C2FDC748890B62F48BF4FEAA29 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CD5E72E46FE06B6235331BCEEFD6BA02 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		D1E47DF2F10C02582574F61F2971F5DF /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		D1F126C7F91A8A326EBFC277A744E069 /* Pods-GinPrivateLibTwo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GinPrivateLibTwo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D2D7D50EB6BBD17069650D83D3D27F5F /* Pods-GinPrivateLibTwo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GinPrivateLibTwo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2E59A7788BAB15AC4D6C297AD142557 /* GinPrivateLibTwo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GinPrivateLibTwo-umbrella.h"; sourceTree = "<group>"; };
+		D3EFF7733D4DF147B0680B3C484F8053 /* GinPrivateLibTwo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GinPrivateLibTwo.modulemap; sourceTree = "<group>"; };
+		D65B0B00C3C17E3C218DA8AB2C1F1D18 /* Pods-GinPrivateLibTwo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GinPrivateLibTwo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A3E0F283A455BD7F1F83D8C030C509 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		D83B80E701130BBBC979F09C47804B55 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		DB34A9041EF71D77212FD6A0E64F4788 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		DC078BE1FFA65379FB26A262BFED1B27 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = GinPrivateLibTwo/Classes/openssl/lib/libssl.a; sourceTree = "<group>"; };
+		DFFF46CCFEA6749F66D8F1C85DC74309 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		E020A97151656E2A60957F497FF433B4 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		E1FD96E50BC449B6BA4BA4AC0BC1096A /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		E6B69573C095C0F71DFE1C230CBB58FF /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		E6E75B75F476D3E31D2E6DC871B4F275 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		E9FC9E99A8AC603D42ACA8C47C6F85C5 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		EA66095C0F3961D11C6F4C99BD69D79C /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		EAC292AA49F3F7C1A12DA98C8FEAB9F0 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		EBD99C35DDC1944F08B161FB2467CB90 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		EBF5495B92C83472431274B77AF576DC /* Pods-GinPrivateLibTwo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GinPrivateLibTwo_Tests.modulemap"; sourceTree = "<group>"; };
+		EC1651E56359C3962785BC92E366CC1B /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		EE69D65662FCE889AEB733A793374D78 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		F28D65E749644BF26C2FF97C5B80D6F3 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		F3351EB55FD342457484668B7DB80D37 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		F6291096AD4077D5BBA11F5C49BC7844 /* Pods-GinPrivateLibTwo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GinPrivateLibTwo_Tests-dummy.m"; sourceTree = "<group>"; };
+		F71FF4C0068D405425104D2D79C75C3C /* GinPrivateLibTwo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GinPrivateLibTwo.framework; path = GinPrivateLibTwo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8ADA9162BC13A4A20D206D5FE7BCC5C /* Pods-GinPrivateLibTwo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GinPrivateLibTwo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC29A07576EC677F292CB73F9341C485 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		FFF4010DD50C0882A18D23B2D6D75CBA /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54186ACE32E278D0CD878E456646D286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9C0F07D0A2B608947C2DFBAFC963B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A532B733E8A9C79D23D20F0662E0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D10AA94D1BC946EF39DFB45955CD712 /* Foundation.framework in Frameworks */,
+				52344A9C1A31333EB49A61DD486299B2 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4E0AC15263A3184E85F002DA068034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41A5512D46D46DD75BBF36E6AF80A86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA11B168AD39D639EDA2226BE5378F5 /* Pods-GinPrivateLibTwo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				05740BD99B3302BBB04B5CB06D04CC3D /* Info.plist */,
+				EBF5495B92C83472431274B77AF576DC /* Pods-GinPrivateLibTwo_Tests.modulemap */,
+				2F392A69CCE0060AEB059EA2140E5024 /* Pods-GinPrivateLibTwo_Tests-acknowledgements.markdown */,
+				D2D7D50EB6BBD17069650D83D3D27F5F /* Pods-GinPrivateLibTwo_Tests-acknowledgements.plist */,
+				F6291096AD4077D5BBA11F5C49BC7844 /* Pods-GinPrivateLibTwo_Tests-dummy.m */,
+				C3F4F5C9087B29DC9F67CB37A3FC8DF2 /* Pods-GinPrivateLibTwo_Tests-frameworks.sh */,
+				07D0A191DE88D2DCF59FA484D93FAA9A /* Pods-GinPrivateLibTwo_Tests-resources.sh */,
+				D1F126C7F91A8A326EBFC277A744E069 /* Pods-GinPrivateLibTwo_Tests-umbrella.h */,
+				D65B0B00C3C17E3C218DA8AB2C1F1D18 /* Pods-GinPrivateLibTwo_Tests.debug.xcconfig */,
+				9EE6109BAAD338162C49203F8E70DFC5 /* Pods-GinPrivateLibTwo_Tests.release.xcconfig */,
+			);
+			name = "Pods-GinPrivateLibTwo_Tests";
+			path = "Target Support Files/Pods-GinPrivateLibTwo_Tests";
+			sourceTree = "<group>";
+		};
+		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */,
+				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3A8C041E0F54A41348C695D0736348FF /* Pods-GinPrivateLibTwo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F56D28CD841A36D436FB3F312143ACD /* Info.plist */,
+				10B1F9697F952E64690D38F518FECD12 /* Pods-GinPrivateLibTwo_Example.modulemap */,
+				F8ADA9162BC13A4A20D206D5FE7BCC5C /* Pods-GinPrivateLibTwo_Example-acknowledgements.markdown */,
+				41E7838553810A1520E797ACAA326258 /* Pods-GinPrivateLibTwo_Example-acknowledgements.plist */,
+				1AA8B3CA0AD51E2A767B864BA76296F3 /* Pods-GinPrivateLibTwo_Example-dummy.m */,
+				B0CCBFD4C71F4AC1E9631E0D832610CD /* Pods-GinPrivateLibTwo_Example-frameworks.sh */,
+				97189FCCF05D21BCE07FE675B612197F /* Pods-GinPrivateLibTwo_Example-resources.sh */,
+				A951DCC59517FA6130885D1DCB3D8BCF /* Pods-GinPrivateLibTwo_Example-umbrella.h */,
+				51AC755AE7F7201C029D3FC3D7CEA041 /* Pods-GinPrivateLibTwo_Example.debug.xcconfig */,
+				C613E560D1CD9FD1011D2D0720777505 /* Pods-GinPrivateLibTwo_Example.release.xcconfig */,
+			);
+			name = "Pods-GinPrivateLibTwo_Example";
+			path = "Target Support Files/Pods-GinPrivateLibTwo_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E339049816F198EB76DEA4264EF8374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		786ED97287EA6DB505608FFDAD5327DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8C041E0F54A41348C695D0736348FF /* Pods-GinPrivateLibTwo_Example */,
+				1CA11B168AD39D639EDA2226BE5378F5 /* Pods-GinPrivateLibTwo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9E4BDF25D94FEF75019AACBB06D95D34 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				FEBF2BFF2977D0C166883FE4BF0A0995 /* Products */,
+				786ED97287EA6DB505608FFDAD5327DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82BFEEF7B3BC71FC00DBA9DDA8D33D7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3EFF7733D4DF147B0680B3C484F8053 /* GinPrivateLibTwo.modulemap */,
+				51D8C4FE8AFC34769C46550754C13049 /* GinPrivateLibTwo.xcconfig */,
+				C4BC594E79B01ACD13DD29DB2F1BAE8D /* GinPrivateLibTwo-dummy.m */,
+				935B0324D8ED2FA6C884DD378E2B0505 /* GinPrivateLibTwo-prefix.pch */,
+				D2E59A7788BAB15AC4D6C297AD142557 /* GinPrivateLibTwo-umbrella.h */,
+				92DC881DA788D4073564409C9D02E24B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GinPrivateLibTwo";
+			sourceTree = "<group>";
+		};
+		845049C24E76C50D3EE3AAD1791428F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				617747CC852EFA3EE4B4C301014C9712 /* libcrypto.a */,
+				DC078BE1FFA65379FB26A262BFED1B27 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9849063F0A94E23D78171A572946C12F /* GinPrivateLibTwo */ = {
+			isa = PBXGroup;
+			children = (
+				845049C24E76C50D3EE3AAD1791428F3 /* Frameworks */,
+				B52A3C16770A7AD1A8C739CBA3F098B4 /* GinPrivateLibTwo */,
+				82BFEEF7B3BC71FC00DBA9DDA8D33D7D /* Support Files */,
+			);
+			name = GinPrivateLibTwo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E4BDF25D94FEF75019AACBB06D95D34 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9849063F0A94E23D78171A572946C12F /* GinPrivateLibTwo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A7B2FFFD5B6DC9F8C992F558F8AF5D2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1C20A81E328BF7D39BCB831ED56DA06 /* EncryptUtil */,
+				A8D16628F5728A637F7F3F7C07CA2E79 /* openssl */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8D16628F5728A637F7F3F7C07CA2E79 /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				EC5680B228E175D16B942500694D90C4 /* include */,
+			);
+			name = openssl;
+			path = openssl;
+			sourceTree = "<group>";
+		};
+		B52A3C16770A7AD1A8C739CBA3F098B4 /* GinPrivateLibTwo */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2FFFD5B6DC9F8C992F558F8AF5D2F /* Classes */,
+			);
+			name = GinPrivateLibTwo;
+			path = GinPrivateLibTwo;
+			sourceTree = "<group>";
+		};
+		CB2A2A98BC03BC5B34901228B011B15F /* SHA1 */ = {
+			isa = PBXGroup;
+			children = (
+				70090EC5115722327891122A14DA9859 /* Sec.c */,
+			);
+			name = SHA1;
+			path = SHA1;
+			sourceTree = "<group>";
+		};
+		D1C20A81E328BF7D39BCB831ED56DA06 /* EncryptUtil */ = {
+			isa = PBXGroup;
+			children = (
+				C0F0DA7A87742ABCC8F90825079046D5 /* EncryptUtil.h */,
+				3BE47F7D469E822130470693A00D3D07 /* EncryptUtil.m */,
+				16C6A0BFF937140C53CC5D9F3D38DE9A /* RSA_Util.h */,
+				6CE8C7EE27438DC4C6A567ADA6651782 /* RSA_Util.m */,
+				CB2A2A98BC03BC5B34901228B011B15F /* SHA1 */,
+			);
+			name = EncryptUtil;
+			path = EncryptUtil;
+			sourceTree = "<group>";
+		};
+		EC5680B228E175D16B942500694D90C4 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				476FCB34B4EAC591D25A5351CC271FA4 /* aes.h */,
+				2BE95C1D1521139A38C3057A19C63E05 /* asn1.h */,
+				71770AE645D37693F1A38387B3823034 /* asn1_mac.h */,
+				2FE8278C3DDED53970758459B9541B71 /* asn1t.h */,
+				4632DCE6B605E8EABDE8977FDF27A6D1 /* bio.h */,
+				785C312106DB06AF2B880CD00164B9C9 /* blowfish.h */,
+				CD5E72E46FE06B6235331BCEEFD6BA02 /* bn.h */,
+				0AA56F792CB3453B29CAA22B9C3A7299 /* buffer.h */,
+				B7EA581BAC8B384525066B76B728FC4D /* camellia.h */,
+				D7A3E0F283A455BD7F1F83D8C030C509 /* cast.h */,
+				E6E75B75F476D3E31D2E6DC871B4F275 /* cmac.h */,
+				63B0E298A4E17A091B3A378987265D7A /* cms.h */,
+				AD62F3364BCF675B21CCDA76CA4801FC /* comp.h */,
+				BB8E90785C284473FEAD0E31E8E52080 /* conf.h */,
+				A0FD9EBC8971E46BC1B064EB513F948D /* conf_api.h */,
+				E6B69573C095C0F71DFE1C230CBB58FF /* crypto.h */,
+				B9479B401D1831B64DED3B984D5DC0E1 /* des.h */,
+				F28D65E749644BF26C2FF97C5B80D6F3 /* des_old.h */,
+				3A5BD4016011E342AF31B7532FF8DAB3 /* dh.h */,
+				2FE558D6911164766A27F9DDFA54B32D /* dsa.h */,
+				EBD99C35DDC1944F08B161FB2467CB90 /* dso.h */,
+				F3351EB55FD342457484668B7DB80D37 /* dtls1.h */,
+				B34820393A0860C29D1F8578694453B4 /* e_os2.h */,
+				81A4EF0F7A7574A22C8B03E7ACF601B8 /* ebcdic.h */,
+				2684428D2DEDA3711E9B99D5093AA7EC /* ec.h */,
+				A71842427D2D1A40B77F7E24C57E22F4 /* ecdh.h */,
+				64F73082EDD4EF1471A53D50A541091A /* ecdsa.h */,
+				3AF49B44FD72AE51AE837BAF816BAE9D /* engine.h */,
+				890913C8A6B8F2AED56A9B1A2EEE6E6B /* err.h */,
+				29AA4FA53C9F63573111ADD94515AA35 /* evp.h */,
+				34CF1D2E1F0665E41DBABAF5EE4DACEF /* hmac.h */,
+				BC1A2CA85907811F8272675ADDD7A98E /* idea.h */,
+				5B0BB5A91B114E47C24E2C703DDFC708 /* krb5_asn.h */,
+				8351C6C00176D3184CD6283166D45CD9 /* kssl.h */,
+				36585E5A80B7166598BABC38AE58FD99 /* lhash.h */,
+				DB34A9041EF71D77212FD6A0E64F4788 /* md4.h */,
+				E1FD96E50BC449B6BA4BA4AC0BC1096A /* md5.h */,
+				29D4A466933FE148CE6172BEE650668C /* mdc2.h */,
+				17976E8A0AE43DE59551D46B32C5913D /* modes.h */,
+				FFF4010DD50C0882A18D23B2D6D75CBA /* obj_mac.h */,
+				6AAB63F1C9E2DD6E3280BF0F3FAD6DBA /* objects.h */,
+				219311A37DA8422C1A65E82C1197441D /* ocsp.h */,
+				C755B3C2FDC748890B62F48BF4FEAA29 /* opensslconf.h */,
+				C2AB1C2A6F62C4790FF0BAE6ED11D71A /* opensslv.h */,
+				2E52852CF0D71EF797BCC8DE22837E41 /* ossl_typ.h */,
+				EA66095C0F3961D11C6F4C99BD69D79C /* pem.h */,
+				36F589749657490C2DDC25530149FAD8 /* pem2.h */,
+				A646EF6CC2E6FA763620FE184FFFA9C1 /* pkcs12.h */,
+				909011B2C842E460883FC3FF5DECA5D4 /* pkcs7.h */,
+				1429088A3D4A554C14CD79C2DE1A297D /* pqueue.h */,
+				7689CB8B776A73D1819952BC15AB7120 /* rand.h */,
+				0C7785476FF0D653ED03510C121F588F /* rc2.h */,
+				EC1651E56359C3962785BC92E366CC1B /* rc4.h */,
+				D83B80E701130BBBC979F09C47804B55 /* ripemd.h */,
+				B70B9848ED6DBB7D6E14532674240B56 /* rsa.h */,
+				EE69D65662FCE889AEB733A793374D78 /* safestack.h */,
+				98E4E2CDAB7E8E53EA9DF7A92781EEBC /* seed.h */,
+				D1E47DF2F10C02582574F61F2971F5DF /* sha.h */,
+				FC29A07576EC677F292CB73F9341C485 /* srp.h */,
+				E9FC9E99A8AC603D42ACA8C47C6F85C5 /* srtp.h */,
+				0442848025FE594043F1F498AFEF5F81 /* ssl.h */,
+				ACD27669D954BF7274E762B27E6A0C9F /* ssl2.h */,
+				486D6499E22F308DE014C02A6B4FAE87 /* ssl23.h */,
+				ACE0FFCC8AEBD26FB7D1CCAE6D72659E /* ssl3.h */,
+				3BA0423A007ED2E38DE9AEF2FF16F9EE /* stack.h */,
+				DFFF46CCFEA6749F66D8F1C85DC74309 /* symhacks.h */,
+				4CD6832148B6093F71355B9767906250 /* tls1.h */,
+				1F6A79722FBDE980314D398EB38CDC26 /* ts.h */,
+				E020A97151656E2A60957F497FF433B4 /* txt_db.h */,
+				4BD60D277F102F10A37821A9CA218DC5 /* ui.h */,
+				7821B9B3C696C29C8592F773A75EE5B7 /* ui_compat.h */,
+				8EED329B529808D14335AE04B87AE506 /* whrlpool.h */,
+				351DBF70A817176DCE2E62B4ED4EAF3F /* x509.h */,
+				B5662917B45D76E5DF4F620C5AD69301 /* x509_vfy.h */,
+				EAC292AA49F3F7C1A12DA98C8FEAB9F0 /* x509v3.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		FEBF2BFF2977D0C166883FE4BF0A0995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71FF4C0068D405425104D2D79C75C3C /* GinPrivateLibTwo.framework */,
+				598AB9DAA581EEAA8178E10CD4389C66 /* Pods_GinPrivateLibTwo_Example.framework */,
+				57330690B5668C79A89EC5CDA34FD8D9 /* Pods_GinPrivateLibTwo_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3426C86537CAE567BF04962C981C28DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EA6240C7A3EC1E194AD56A11274947 /* Pods-GinPrivateLibTwo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A793387C45B6C21B124914CDFBB07A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1EA780E65007B20B87F797FFFEEAD2F /* Pods-GinPrivateLibTwo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DAA62030109301418560508DF49D9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80854DF6AD641B419DC910A3A53580A7 /* aes.h in Headers */,
+				B94BAF6577BCD86D0393646A07213E7A /* asn1.h in Headers */,
+				6F19CB2F5E17EC6428C887D8A9940127 /* asn1_mac.h in Headers */,
+				7041AAE22B29CB4FABF2AA36A9E08E4D /* asn1t.h in Headers */,
+				1FC770E505CDF5F4624F236336BD7519 /* bio.h in Headers */,
+				9CA377A1CAB2D4C6B1BEFC1A32D74FB3 /* blowfish.h in Headers */,
+				CF97D03936266D6535814E23CD79E335 /* bn.h in Headers */,
+				29121DE33E849F9D732DF2BCB7B39366 /* buffer.h in Headers */,
+				9B9EE7710B47D5AC6A0AB252E61F5375 /* camellia.h in Headers */,
+				BA0ADB1AC286C32EEE0FA0C07EB30CE4 /* cast.h in Headers */,
+				8527D59D8E077B2388933810905620ED /* cmac.h in Headers */,
+				FB8A1241799104A9DC9C1A1867B83874 /* cms.h in Headers */,
+				AC6835F098FDB3945C705890D265B010 /* comp.h in Headers */,
+				E7C8E8F2EB560E04C99EA2D9121EE8B2 /* conf.h in Headers */,
+				AEAE9B83B001F61522A3B02959EABE33 /* conf_api.h in Headers */,
+				D0B09D53CCEBB2FA74051101665785DC /* crypto.h in Headers */,
+				871E63629EB821BC3332312C07835BCC /* des.h in Headers */,
+				1B2A6B1477DAF77772DD46BF5C425FD0 /* des_old.h in Headers */,
+				2A17C8A8D4D292E287513CE6C1AF9D94 /* dh.h in Headers */,
+				2C7CE7CA172D886981736BFE145A651C /* dsa.h in Headers */,
+				D2F2A35C0E1E2AAFF7F9343CF839C898 /* dso.h in Headers */,
+				A597FAF1B7CE59DFEA0343AFF858223E /* dtls1.h in Headers */,
+				14892DC16F04E4FBE3DE0CF8D070AD3D /* e_os2.h in Headers */,
+				177F6DE3F5A224CB07B802E808A703EC /* ebcdic.h in Headers */,
+				41E4E478FDB5B628020EE7012D022BA8 /* ec.h in Headers */,
+				79B9E86D66B82356C9B4EA7D982AE77A /* ecdh.h in Headers */,
+				1AD675E495A029B94F3602A1AAAED010 /* ecdsa.h in Headers */,
+				ED1A83535D31BC0DEF0F027BA86B9C11 /* EncryptUtil.h in Headers */,
+				31E74C6B5ED64CFA5BDCEBC0465B5DA8 /* engine.h in Headers */,
+				BF13BB6AE7F19D993B57B5B99199983C /* err.h in Headers */,
+				9D55478609F15A0AAF5E981A75361282 /* evp.h in Headers */,
+				2A1E778E0BBD1A267E0CEC52ED00CAC4 /* GinPrivateLibTwo-umbrella.h in Headers */,
+				EAF082B6A4AEE3C5055467733ADDD75B /* hmac.h in Headers */,
+				778B313E5A8677D6C850B7CA6BEA17D4 /* idea.h in Headers */,
+				F53830E763BCBF89F2659236175C071C /* krb5_asn.h in Headers */,
+				CA38ED7072196B44064DE69638153783 /* kssl.h in Headers */,
+				28E84602490DFE72A4D99A759F3694D4 /* lhash.h in Headers */,
+				612D090FEE5464BCAB85DBBA6545F56E /* md4.h in Headers */,
+				2D816A8B27D6C62C2C97154B96B5123A /* md5.h in Headers */,
+				9E44D0CD451BAE90DE2FC9A1050EA687 /* mdc2.h in Headers */,
+				139B22141CDBA56C940B1CC02D370136 /* modes.h in Headers */,
+				4CDDBE36B906A38415EC2F0B034850A1 /* obj_mac.h in Headers */,
+				D0BA5963F32E70AAE0D51C4D287DFFBA /* objects.h in Headers */,
+				EE187FF6AA15B8A39D08F355A9F9B010 /* ocsp.h in Headers */,
+				692A96382A8EB8D4842B7D029409ABE6 /* opensslconf.h in Headers */,
+				29C7A17BA821DF238DE642A111F51A3D /* opensslv.h in Headers */,
+				9BCF338AF854015BD6B6B63F077884F1 /* ossl_typ.h in Headers */,
+				54EE834E2FE59CB93E773A42CD8A5694 /* pem.h in Headers */,
+				6D84070498FE71FD7F154DEFF8367088 /* pem2.h in Headers */,
+				8148E7F97484E7B25B1E88B65D2A6031 /* pkcs12.h in Headers */,
+				76E7D1B71F4CB282EF2C3ABD28DA14D2 /* pkcs7.h in Headers */,
+				C2CA1599859D593BFF7B73E935262B48 /* pqueue.h in Headers */,
+				276D770B347D2B457617BCF1F078CA59 /* rand.h in Headers */,
+				B3E1569B19F408DA44A4022DC2ACE6E7 /* rc2.h in Headers */,
+				49B90BE89F8457D725CC3FB7D51B1124 /* rc4.h in Headers */,
+				D039FCE9702511434C030ECEE761A485 /* ripemd.h in Headers */,
+				43491E0ACA80A937585C86404E9C2EF6 /* rsa.h in Headers */,
+				7A2737A060AEB005FE38E9AE5393E95A /* RSA_Util.h in Headers */,
+				2B2EF2012E5ECD32B05745F1C8C84852 /* safestack.h in Headers */,
+				F5D23464D36FB4E36BFCED05C2E6232F /* seed.h in Headers */,
+				615827021A91D430A77B0F6B0B5FD25F /* sha.h in Headers */,
+				A4A266676F6E670ADF4D9B66EE3E036E /* srp.h in Headers */,
+				ED2E040E7D3A4BF89B166955D28582E4 /* srtp.h in Headers */,
+				1F92E499F25B7F112506D6BE09CE0027 /* ssl.h in Headers */,
+				FAD3BF789429087C856845B638FF981B /* ssl2.h in Headers */,
+				912199889D19B8CB06E41E12558877D2 /* ssl23.h in Headers */,
+				97D04C04F44C2DA3EE7B2832388471A5 /* ssl3.h in Headers */,
+				B1236DA0C9F85422D8E9E0A66AB501E2 /* stack.h in Headers */,
+				5C78E984485BCDC758F1630580EA76D9 /* symhacks.h in Headers */,
+				C3441558DAE40418E07B73D686F3D36A /* tls1.h in Headers */,
+				EDA17A1171DD6021D8D89B0388EAA632 /* ts.h in Headers */,
+				AF4989862DC4167E076C229B341475FD /* txt_db.h in Headers */,
+				E134361E5002CEF0FDAB4F22B8087ED0 /* ui.h in Headers */,
+				5C3E7918DCE0E3AB80EDC7C4CC458078 /* ui_compat.h in Headers */,
+				2C683F21F35E870A1747AE2AFAE76425 /* whrlpool.h in Headers */,
+				84A7363ED796D381871ED4B985B79256 /* x509.h in Headers */,
+				8EADBD292D7F0E4B014A305ACF5F7DA5 /* x509_vfy.h in Headers */,
+				AF53CE543A3A1B8936A181105C339CBA /* x509v3.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23E6DFD369482FA3E459463F0C80FD2F /* GinPrivateLibTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41ED8868B4BBB0BE887807A1A94E72A6 /* Build configuration list for PBXNativeTarget "GinPrivateLibTwo" */;
+			buildPhases = (
+				CE4929F72E4AFABDC0D108E821353054 /* Sources */,
+				55A532B733E8A9C79D23D20F0662E0B1 /* Frameworks */,
+				88DAA62030109301418560508DF49D9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GinPrivateLibTwo;
+			productName = GinPrivateLibTwo;
+			productReference = F71FF4C0068D405425104D2D79C75C3C /* GinPrivateLibTwo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54778D8C16B995624C062AB9C61A6ECA /* Pods-GinPrivateLibTwo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E24C8D3A7DBF5CDF8EABC7AE1F90FAC0 /* Build configuration list for PBXNativeTarget "Pods-GinPrivateLibTwo_Tests" */;
+			buildPhases = (
+				92D2541FA40B8E1C25077A8C29AD4504 /* Sources */,
+				FC4E0AC15263A3184E85F002DA068034 /* Frameworks */,
+				4A793387C45B6C21B124914CDFBB07A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GinPrivateLibTwo_Tests";
+			productName = "Pods-GinPrivateLibTwo_Tests";
+			productReference = 57330690B5668C79A89EC5CDA34FD8D9 /* Pods_GinPrivateLibTwo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76A557454587272C8C585837F6C187C6 /* Pods-GinPrivateLibTwo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CF3CF7E7FD6EEC7ABAF98A38ECC6E8 /* Build configuration list for PBXNativeTarget "Pods-GinPrivateLibTwo_Example" */;
+			buildPhases = (
+				09600AFF7632EE7D3C0118587D44D8EC /* Sources */,
+				54186ACE32E278D0CD878E456646D286 /* Frameworks */,
+				3426C86537CAE567BF04962C981C28DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6972BFE5EFF92C6D9FF30C2643D33D /* PBXTargetDependency */,
+			);
+			name = "Pods-GinPrivateLibTwo_Example";
+			productName = "Pods-GinPrivateLibTwo_Example";
+			productReference = 598AB9DAA581EEAA8178E10CD4389C66 /* Pods_GinPrivateLibTwo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEBF2BFF2977D0C166883FE4BF0A0995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23E6DFD369482FA3E459463F0C80FD2F /* GinPrivateLibTwo */,
+				76A557454587272C8C585837F6C187C6 /* Pods-GinPrivateLibTwo_Example */,
+				54778D8C16B995624C062AB9C61A6ECA /* Pods-GinPrivateLibTwo_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09600AFF7632EE7D3C0118587D44D8EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E8EBE8CE415ADA1F5DD0E7AA18574F /* Pods-GinPrivateLibTwo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92D2541FA40B8E1C25077A8C29AD4504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831868705E994C02B1F5A98BDA351F0C /* Pods-GinPrivateLibTwo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4929F72E4AFABDC0D108E821353054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2010960EE5359CDEBAD4D1A4C948543B /* EncryptUtil.m in Sources */,
+				2A175A679B376FC0B8039C2D5798A30D /* GinPrivateLibTwo-dummy.m in Sources */,
+				1C978C9452778BCC9126ADC30631EEAE /* RSA_Util.m in Sources */,
+				9A92971CB3E270E861EA73A47DE1897A /* Sec.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6972BFE5EFF92C6D9FF30C2643D33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GinPrivateLibTwo;
+			target = 23E6DFD369482FA3E459463F0C80FD2F /* GinPrivateLibTwo */;
+			targetProxy = 985A6F1A325BF20010DD86FCFE7FC81E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A94EC3B797F7F72FA43781283EC9AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D8C4FE8AFC34769C46550754C13049 /* GinPrivateLibTwo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GinPrivateLibTwo/GinPrivateLibTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GinPrivateLibTwo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GinPrivateLibTwo/GinPrivateLibTwo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GinPrivateLibTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7023D93A07D69686B3EE65F50D857D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C613E560D1CD9FD1011D2D0720777505 /* Pods-GinPrivateLibTwo_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Example/Pods-GinPrivateLibTwo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GinPrivateLibTwo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9814473A3D169B2684A863DEE5571E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D8C4FE8AFC34769C46550754C13049 /* GinPrivateLibTwo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GinPrivateLibTwo/GinPrivateLibTwo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GinPrivateLibTwo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GinPrivateLibTwo/GinPrivateLibTwo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GinPrivateLibTwo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B491D89753AC5A1AF0A1051D8E4AED66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AC755AE7F7201C029D3FC3D7CEA041 /* Pods-GinPrivateLibTwo_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Example/Pods-GinPrivateLibTwo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GinPrivateLibTwo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBC9DEE8F7756D930FB6E09FE1E7FEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65B0B00C3C17E3C218DA8AB2C1F1D18 /* Pods-GinPrivateLibTwo_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Tests/Pods-GinPrivateLibTwo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GinPrivateLibTwo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4A8CA9E315733B59446038F4D677B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE6109BAAD338162C49203F8E70DFC5 /* Pods-GinPrivateLibTwo_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GinPrivateLibTwo_Tests/Pods-GinPrivateLibTwo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GinPrivateLibTwo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41ED8868B4BBB0BE887807A1A94E72A6 /* Build configuration list for PBXNativeTarget "GinPrivateLibTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A94EC3B797F7F72FA43781283EC9AC2 /* Debug */,
+				9814473A3D169B2684A863DEE5571E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CF3CF7E7FD6EEC7ABAF98A38ECC6E8 /* Build configuration list for PBXNativeTarget "Pods-GinPrivateLibTwo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B491D89753AC5A1AF0A1051D8E4AED66 /* Debug */,
+				7023D93A07D69686B3EE65F50D857D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E24C8D3A7DBF5CDF8EABC7AE1F90FAC0 /* Build configuration list for PBXNativeTarget "Pods-GinPrivateLibTwo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC9DEE8F7756D930FB6E09FE1E7FEAE /* Debug */,
+				C4A8CA9E315733B59446038F4D677B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "GinPrivateLibTwo",
+  "version": "0.1.0",
+  "summary": "A short description of GinPrivateLibTwo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/GinPrivateLibTwo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "穆秋实": "gintamatama0912@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/GinPrivateLibTwo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "GinPrivateLibTwo/Classes/openssl/include/*.h",
+    "GinPrivateLibTwo/Classes/EncryptUtil/*.{h,m}",
+    "GinPrivateLibTwo/Classes/EncryptUtil/SHA1/*.c"
+  ],
+  "frameworks": "Security",
+  "libraries": [
+    "z",
+    "crypto",
+    "ssl"
+  ],
+  "vendored_libraries": "GinPrivateLibTwo/Classes/openssl/lib/*.a",
+  "public_header_files": "GinPrivateLibTwo/Classes/EncryptUtil/EncryptUtil.h"
+}

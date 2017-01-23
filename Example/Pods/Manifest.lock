@@ -1,0 +1,16 @@
+PODS:
+  - GinPrivateLibTwo (0.1.0)
+
+DEPENDENCIES:
+  - GinPrivateLibTwo (from `../`)
+
+EXTERNAL SOURCES:
+  GinPrivateLibTwo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GinPrivateLibTwo: fe81489d04c2a4999f7deb196b391820c373dcf6
+
+PODFILE CHECKSUM: 6d393a6f8d14f26be7b5f27bae1ca3d8a01f8578
+
+COCOAPODS: 1.1.1

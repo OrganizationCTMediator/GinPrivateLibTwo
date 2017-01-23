@@ -10,13 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'GinPrivateLibTwo'
   s.version          = '0.1.0'
   s.summary          = 'A short description of GinPrivateLibTwo.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -30,13 +23,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GinPrivateLibTwo/Classes/**/*'
-  
+  s.source_files = 'GinPrivateLibTwo/Classes/openssl/include/*.h' ,
+                    'GinPrivateLibTwo/Classes/EncryptUtil/*.{h,m}' ,
+                    'GinPrivateLibTwo/Classes/EncryptUtil/SHA1/*.c'
+
+
+  s.frameworks = 'Security'
+  s.library = 'z','crypto','ssl'
+  s.vendored_library = 'GinPrivateLibTwo/Classes/openssl/lib/*.a'
+
   # s.resource_bundles = {
   #   'GinPrivateLibTwo' => ['GinPrivateLibTwo/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'GinPrivateLibTwo/Classes/EncryptUtil/EncryptUtil.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

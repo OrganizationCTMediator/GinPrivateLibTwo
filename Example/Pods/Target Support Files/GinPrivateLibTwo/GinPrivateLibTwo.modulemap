@@ -1,0 +1,6 @@
+framework module GinPrivateLibTwo {
+  umbrella header "GinPrivateLibTwo-umbrella.h"
+
+  export *
+  module * { export * }
+}
