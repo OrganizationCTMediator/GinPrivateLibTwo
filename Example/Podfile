@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GinPrivateLibTwo_Example' do
+  pod 'GinPrivateLibTwo', :path => '../'
+
+  target 'GinPrivateLibTwo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
