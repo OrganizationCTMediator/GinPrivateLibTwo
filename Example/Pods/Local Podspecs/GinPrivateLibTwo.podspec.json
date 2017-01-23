@@ -13,22 +13,28 @@
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/GinPrivateLibTwo.git",
-    "tag": "0.1.0"
+    "branch": "master"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": [
-    "GinPrivateLibTwo/Classes/openssl/include/*.h",
     "GinPrivateLibTwo/Classes/EncryptUtil/*.{h,m}",
     "GinPrivateLibTwo/Classes/EncryptUtil/SHA1/*.c"
   ],
-  "frameworks": "Security",
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics",
+    "UIKit"
+  ],
   "libraries": [
     "z",
     "crypto",
     "ssl"
   ],
-  "vendored_libraries": "GinPrivateLibTwo/Classes/openssl/lib/*.a",
-  "public_header_files": "GinPrivateLibTwo/Classes/EncryptUtil/EncryptUtil.h"
+  "dependencies": {
+    "OpenSSL": [
+      "~> 1.0.210"
+    ]
+  }
 }
